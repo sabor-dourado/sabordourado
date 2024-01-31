@@ -1,0 +1,286 @@
+/*Gerais*/
+
+.container{
+    padding: 70px 0px;
+}
+
+body{
+    font-family: 'Garet', sans-serif;
+    background-color: #F4DDE2;
+}
+
+/*Barra de Navegação*/
+
+header, .navbar{
+    background-color:#522312;
+}
+
+.color-button-nav{
+    border-color: white;
+}
+
+.navbar-nav a{
+    font-family: 'Garet', sans-serif;
+    color: white ;
+    font-size: 18px;
+}
+
+.navbar-nav a:hover{
+    color: white ;
+}
+
+.navbar-nav a:not(.active){
+    color: white ;
+}
+
+
+#logo{
+    width: 200px;
+}
+
+.fixedHeightImg  > img{
+        max-height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+     
+}
+
+/**Estilo do dropdown do menu**/
+
+.dropdown-menu{
+    background-color: #522312;
+}
+
+.dropdown-item:hover {
+    background-color: #f8c6d8;
+    color: #522312 !important;
+}   
+
+
+/*Slider*/
+
+.container-fluid{
+    padding: 0;
+}
+
+/*Content*/
+
+.inline {
+    display: inline-block;
+
+}
+
+.main-title{
+    font-family: 'Cookie', cursive;
+    color: #522312;
+    margin: 0 0 65px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Conheça os produtos*/
+
+.category-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.category-box img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.category-box h4{
+    margin-top: 20px;
+    font-family: 'Garet', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    color: #522312;
+    transition: .5s;
+}
+
+.category-box:hover > h4 {
+    font-weight: 600;
+} 
+
+
+/*Delivery*/
+
+/*BLOG*/
+
+#blog {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image:url(https://demo.gethugothemes.com/restaurant/site/images/blog/blog-bg.jpg);
+}
+
+#blog .block .heading {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 500;
+    color: #2E2E2E;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.heading:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 140px;
+    height: 1px;
+    background: #C8C1B3;
+    margin-left: -70px;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    background-color: #fff;
+    position: relative;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.post-content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    background: #fff;
+    transform: rotate(45deg);
+    margin-left: -15px;
+}
+
+.post-content h3 {
+    padding: 0px 10px 20px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    position: relative;
+}
+
+.post-content {
+    background-color: #fff;
+    position: relative;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.styarticle{
+    visibility: visible;
+    animation-duration: 300ms;
+    animation-delay: 300ms;
+    animation-name: fadeInLeft;
+}
+
+.post-content h3:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 90px;
+    height: 1px;
+    background: #CBC4B5;
+    margin-left: -45px;
+}
+
+.post-content h3 a {
+    color: #323232;
+    font-size: 20px;
+    display: block;
+}
+
+.post-img {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.post-img img {
+    transition: all 0.8s ease-out;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay{
+    position: relative;
+}
+
+.overlay:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay-pattern.png) #000000;
+    opacity: 0.3;
+}
+
+/*Footer*/
+
+.bg-footer {
+    background-color: #f8c6d8;
+}
+
+.footer-title{
+    font-family: 'Cookie', cursive;
+    color: #522312;
+    font-size: 40px;
+}
+
+.arrowtotop{
+    position:relative;
+    left:50px;
+}
+
+.txt-footer {
+    font-family: 'Garet', sans-serif;
+    color: #522312;
+    font-size: 16px;
+}
+
+/**Botão Whats app**/
+.zap{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}

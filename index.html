@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Site do Sabor Dourado</title>
+  <meta charset="utf-8">
+  <title>Sabor Dourado</title>
+
+  <!--Fontes-->
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo-sabor-dourado-favicon2.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
+
+  <!--Bootstrap e CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!--Scripts-->
+  <script src="https://kit.fontawesome.com/e90da9df14.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+
+        <a class="navbar-brand p-0 me-2">
+          <img id="logo" src="images/logo-sabor-dourado-rosa-transparente.png" class="img-fluid center"
+            alt="logomarca do Sabor Dourado">
+        </a>
+
+        <button class="navbar-toggler color-button-nav" type="button" data-bs-toggle="collapse"
+          data-bs-target="#bdNavbar" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="#ffffff" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="bdNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link p-2" aria-current="page" href="#products-area">Produtos</a>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                Cardápios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="doc/cardapio-completo.pdf" target="_blank">Completo</a></li>
+                <!--<li><a class="dropdown-item " href="#" target="_blank">Bolos</a></li>-->
+                <li><a class="dropdown-item " href="doc/cardapio-sabordourado-doces.pdf" target="_blank">Doces</a></li>
+                <li><a class="dropdown-item " href="doc/cardapio-sabordourado-salgados.pdf" target="_blank">Salgados</a>
+                </li>
+                <li><a class="dropdown-item " href="doc/cardapio-sabordourado-torta-doce.pdf" target="_blank">Tortas
+                    Doces</a></li>
+                <li><a class="dropdown-item " href="doc/cardapio-sabordourado-tortas-salgadas.pdf"
+                    target="_blank">Tortas Salgadas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link p-2" aria-current="page" href="#delivery-area">Delivery</a>
+            </li>
+
+            <li class="nav-item col-6 col-md-auto">
+              <a class="nav-link  p-2" aria-current="page" href="#contact-area">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="images/banner-torta-morango.jpg" class="d-block w-100"
+              aria-label="foto da torta de chocolate com morango" focusable="false">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div id="products-area">
+      <div class="container marketing pt-4 ">
+
+        <div class="row">
+          <div class="col-12 category-box">
+            <h3 class=" main-title">Conheça nossos produtos</h3>
+          </div>
+
+          <div class="col-4 category-box">
+            <img class="img-fluid " src="images/salgado-coxinha.jpg" alt="Salgados">
+            <h4>Salgados</h4>
+          </div>
+          <div class="col-4 category-box">
+            <img class="img-fluid " src="images/doce-ninho-nutela.jpg" alt="Doces">
+            <h4>Doces</h4>
+          </div>
+          <div class="col-4  category-box">
+            <img class="img-fluid " src="images/bolo-aimpim.jpg" alt="Bolos">
+            <h4>Bolos</h4>
+          </div>
+          <div class="col-4  category-box">
+            <img class="img-fluid" src="images/torta-salgada.jpg" alt="Torta Salgada">
+            <h4>Torta Salgada</h4>
+          </div>
+          <div class="col-4  category-box">
+            <img class="img-fluid" src="images/torta-doce.jpg" alt="Torta Doce">
+            <h4>Torta Doce</h4>
+          </div>
+          <div class="col-4  category-box">
+            <img class="img-fluid" src="images/torta-salgada-individual.jpg" alt="Tortas Individuais">
+            <h4>Itens Individuais</h4>
+          </div>
+        </div><!-- /.row -->
+      </div>
+    </div>
+
+    <div id="delivery-area">
+
+      <div class="container marketing pt-4 ">
+
+        <div class="row">
+          <div class="col-12 category-box">
+            <h3 class=" main-title">Delivery</h3>
+          </div>
+
+          <div class="col-md-6">
+            <p>
+              <a href="https://www.vecteezy.com/free-vector/package" target="_blank">
+                <img src="images/delivery-truck.svg">
+              </a>
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <p>Realizamos o serviço de entrega para a sua comodidade. Consulte a taxa e disponibilidade
+              para o seu bairro.
+            </p>
+            <ul>
+              <li>Graça, Canela - R$ 6,00</li>
+              <li>Barra, Federação e Vitória - R$ 10,00</li>
+              <li>Outros bairros - consultar valores e disponibilidade.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="blog" class="overlay">
+      <div class="container2">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h1 class="heading">Dicas!</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3" >
+
+              <div class="col-lg-6">
+                <article class="post wow fadeInLeft animated styarticle" data-wow-duration="300ms"
+                  data-wow-delay="300ms">
+                  <div class="post-img">
+                    <img src="https://demo.gethugothemes.com/restaurant/site/images/blog/blog-img-5.jpg"
+                      alt="post-image" class="img-responsive">
+                  </div>
+                  <div class="post-content">
+                    <h3><a href="https://demo.gethugothemes.com/restaurant/site/post/red-pepper-miso-wings-2/">Red
+                        Pepper Miso Wings 2</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro modi delectus rerum, sed
+                      blanditiis eaque eum, ex et officia veritatis id hic.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-lg-6">
+                <article class="post wow fadeInLeft animated styarticle" data-wow-duration="300ms"
+                  data-wow-delay="300ms">
+                  <div class="post-img">
+                    <img src="https://demo.gethugothemes.com/restaurant/site/images/blog/blog-img-3.jpg"
+                      alt="post-image" class="img-responsive">
+                  </div>
+                  <div class="post-content">
+                    <h3><a href="https://demo.gethugothemes.com/restaurant/site/post/red-pepper-miso-wings/">Red Pepper
+                        Miso Wings</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro modi delectus rerum, sed
+                      blanditiis eaque eum, ex et officia veritatis id hic.</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-6">
+                <article class="post wow fadeInLeft animated styarticle" data-wow-duration="300ms"
+                  data-wow-delay="300ms">
+                  <div class="post-img">
+                    <img src="https://demo.gethugothemes.com/restaurant/site/images/blog/blog-img-3.jpg"
+                      alt="post-image" class="img-responsive">
+                  </div>
+                  <div class="post-content">
+                    <h3><a
+                        href="https://demo.gethugothemes.com/restaurant/site/post/homestyle-chicken-pot-pie/">Homestyle
+                        Chicken Pot Pie</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, veniam! Lorem ipsum dolor sit
+                      amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-6">
+                <article class="post wow fadeInLeft animated styarticle" data-wow-duration="300ms"
+                  data-wow-delay="300ms">
+                  <div class="post-img">
+                    <img src="https://demo.gethugothemes.com/restaurant/site/images/blog/blog-img-2.jpg"
+                      alt="post-image" class="img-responsive">
+                  </div>
+                  <div class="post-content">
+                    <h3><a href="https://demo.gethugothemes.com/restaurant/site/post/restaurant/">Skillet Chicken with
+                        Potatoes</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dignissimos. Lorem ipsum dolor
+                      sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div id="contact-area" class="bg-footer txt-footer">
+      <div class="container">
+        <div class="row">
+          <ul class="col-md-4 list-unstyled">
+            <h5 class="footer-title">Formas de Pagamento</h5>
+            <!--!Font Awesome Free 6.5.1 by @fontawesome -free Copyright 2024 Fonticons, Inc.-->
+            <li>
+              <p class="inline">Pix</p>
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+                <path fill="#522312"
+                  d="M242.4 292.5C247.8 287.1 257.1 287.1 262.5 292.5L339.5 369.5C353.7 383.7 372.6 391.5 392.6 391.5H407.7L310.6 488.6C280.3 518.1 231.1 518.1 200.8 488.6L103.3 391.2H112.6C132.6 391.2 151.5 383.4 165.7 369.2L242.4 292.5zM262.5 218.9C256.1 224.4 247.9 224.5 242.4 218.9L165.7 142.2C151.5 127.1 132.6 120.2 112.6 120.2H103.3L200.7 22.8C231.1-7.6 280.3-7.6 310.6 22.8L407.8 119.9H392.6C372.6 119.9 353.7 127.7 339.5 141.9L262.5 218.9zM112.6 142.7C126.4 142.7 139.1 148.3 149.7 158.1L226.4 234.8C233.6 241.1 243 245.6 252.5 245.6C261.9 245.6 271.3 241.1 278.5 234.8L355.5 157.8C365.3 148.1 378.8 142.5 392.6 142.5H430.3L488.6 200.8C518.9 231.1 518.9 280.3 488.6 310.6L430.3 368.9H392.6C378.8 368.9 365.3 363.3 355.5 353.5L278.5 276.5C264.6 262.6 240.3 262.6 226.4 276.6L149.7 353.2C139.1 363 126.4 368.6 112.6 368.6H80.8L22.8 310.6C-7.6 280.3-7.6 231.1 22.8 200.8L80.8 142.7H112.6z" />
+              </svg>
+            </li>
+            <li>
+              <p class="inline">Cartões</p>
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512">
+                <path fill="#522312"
+                  d="M482.9 410.3c0 6.8-4.6 11.7-11.2 11.7-6.8 0-11.2-5.2-11.2-11.7 0-6.5 4.4-11.7 11.2-11.7 6.6 0 11.2 5.2 11.2 11.7zm-310.8-11.7c-7.1 0-11.2 5.2-11.2 11.7 0 6.5 4.1 11.7 11.2 11.7 6.5 0 10.9-4.9 10.9-11.7-.1-6.5-4.4-11.7-10.9-11.7zm117.5-.3c-5.4 0-8.7 3.5-9.5 8.7h19.1c-.9-5.7-4.4-8.7-9.6-8.7zm107.8 .3c-6.8 0-10.9 5.2-10.9 11.7 0 6.5 4.1 11.7 10.9 11.7 6.8 0 11.2-4.9 11.2-11.7 0-6.5-4.4-11.7-11.2-11.7zm105.9 26.1c0 .3 .3 .5 .3 1.1 0 .3-.3 .5-.3 1.1-.3 .3-.3 .5-.5 .8-.3 .3-.5 .5-1.1 .5-.3 .3-.5 .3-1.1 .3-.3 0-.5 0-1.1-.3-.3 0-.5-.3-.8-.5-.3-.3-.5-.5-.5-.8-.3-.5-.3-.8-.3-1.1 0-.5 0-.8 .3-1.1 0-.5 .3-.8 .5-1.1 .3-.3 .5-.3 .8-.5 .5-.3 .8-.3 1.1-.3 .5 0 .8 0 1.1 .3 .5 .3 .8 .3 1.1 .5s.2 .6 .5 1.1zm-2.2 1.4c.5 0 .5-.3 .8-.3 .3-.3 .3-.5 .3-.8 0-.3 0-.5-.3-.8-.3 0-.5-.3-1.1-.3h-1.6v3.5h.8V426h.3l1.1 1.4h.8l-1.1-1.3zM576 81v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V81c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM64 220.6c0 76.5 62.1 138.5 138.5 138.5 27.2 0 53.9-8.2 76.5-23.1-72.9-59.3-72.4-171.2 0-230.5-22.6-15-49.3-23.1-76.5-23.1-76.4-.1-138.5 62-138.5 138.2zm224 108.8c70.5-55 70.2-162.2 0-217.5-70.2 55.3-70.5 162.6 0 217.5zm-142.3 76.3c0-8.7-5.7-14.4-14.7-14.7-4.6 0-9.5 1.4-12.8 6.5-2.4-4.1-6.5-6.5-12.2-6.5-3.8 0-7.6 1.4-10.6 5.4V392h-8.2v36.7h8.2c0-18.9-2.5-30.2 9-30.2 10.2 0 8.2 10.2 8.2 30.2h7.9c0-18.3-2.5-30.2 9-30.2 10.2 0 8.2 10 8.2 30.2h8.2v-23zm44.9-13.7h-7.9v4.4c-2.7-3.3-6.5-5.4-11.7-5.4-10.3 0-18.2 8.2-18.2 19.3 0 11.2 7.9 19.3 18.2 19.3 5.2 0 9-1.9 11.7-5.4v4.6h7.9V392zm40.5 25.6c0-15-22.9-8.2-22.9-15.2 0-5.7 11.9-4.8 18.5-1.1l3.3-6.5c-9.4-6.1-30.2-6-30.2 8.2 0 14.3 22.9 8.3 22.9 15 0 6.3-13.5 5.8-20.7 .8l-3.5 6.3c11.2 7.6 32.6 6 32.6-7.5zm35.4 9.3l-2.2-6.8c-3.8 2.1-12.2 4.4-12.2-4.1v-16.6h13.1V392h-13.1v-11.2h-8.2V392h-7.6v7.3h7.6V416c0 17.6 17.3 14.4 22.6 10.9zm13.3-13.4h27.5c0-16.2-7.4-22.6-17.4-22.6-10.6 0-18.2 7.9-18.2 19.3 0 20.5 22.6 23.9 33.8 14.2l-3.8-6c-7.8 6.4-19.6 5.8-21.9-4.9zm59.1-21.5c-4.6-2-11.6-1.8-15.2 4.4V392h-8.2v36.7h8.2V408c0-11.6 9.5-10.1 12.8-8.4l2.4-7.6zm10.6 18.3c0-11.4 11.6-15.1 20.7-8.4l3.8-6.5c-11.6-9.1-32.7-4.1-32.7 15 0 19.8 22.4 23.8 32.7 15l-3.8-6.5c-9.2 6.5-20.7 2.6-20.7-8.6zm66.7-18.3H408v4.4c-8.3-11-29.9-4.8-29.9 13.9 0 19.2 22.4 24.7 29.9 13.9v4.6h8.2V392zm33.7 0c-2.4-1.2-11-2.9-15.2 4.4V392h-7.9v36.7h7.9V408c0-11 9-10.3 12.8-8.4l2.4-7.6zm40.3-14.9h-7.9v19.3c-8.2-10.9-29.9-5.1-29.9 13.9 0 19.4 22.5 24.6 29.9 13.9v4.6h7.9v-51.7zm7.6-75.1v4.6h.8V302h1.9v-.8h-4.6v.8h1.9zm6.6 123.8c0-.5 0-1.1-.3-1.6-.3-.3-.5-.8-.8-1.1-.3-.3-.8-.5-1.1-.8-.5 0-1.1-.3-1.6-.3-.3 0-.8 .3-1.4 .3-.5 .3-.8 .5-1.1 .8-.5 .3-.8 .8-.8 1.1-.3 .5-.3 1.1-.3 1.6 0 .3 0 .8 .3 1.4 0 .3 .3 .8 .8 1.1 .3 .3 .5 .5 1.1 .8 .5 .3 1.1 .3 1.4 .3 .5 0 1.1 0 1.6-.3 .3-.3 .8-.5 1.1-.8 .3-.3 .5-.8 .8-1.1 .3-.6 .3-1.1 .3-1.4zm3.2-124.7h-1.4l-1.6 3.5-1.6-3.5h-1.4v5.4h.8v-4.1l1.6 3.5h1.1l1.4-3.5v4.1h1.1v-5.4zm4.4-80.5c0-76.2-62.1-138.3-138.5-138.3-27.2 0-53.9 8.2-76.5 23.1 72.1 59.3 73.2 171.5 0 230.5 22.6 15 49.5 23.1 76.5 23.1 76.4 .1 138.5-61.9 138.5-138.4z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512">
+                <path fill="#522312"
+                  d="M470.1 231.3s7.6 37.2 9.3 45H446c3.3-8.9 16-43.5 16-43.5-.2 .3 3.3-9.1 5.3-14.9l2.8 13.4zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM152.5 331.2L215.7 176h-42.5l-39.3 106-4.3-21.5-14-71.4c-2.3-9.9-9.4-12.7-18.2-13.1H32.7l-.7 3.1c15.8 4 29.9 9.8 42.2 17.1l35.8 135h42.5zm94.4 .2L272.1 176h-40.2l-25.1 155.4h40.1zm139.9-50.8c.2-17.7-10.6-31.2-33.7-42.3-14.1-7.1-22.7-11.9-22.7-19.2 .2-6.6 7.3-13.4 23.1-13.4 13.1-.3 22.7 2.8 29.9 5.9l3.6 1.7 5.5-33.6c-7.9-3.1-20.5-6.6-36-6.6-39.7 0-67.6 21.2-67.8 51.4-.3 22.3 20 34.7 35.2 42.2 15.5 7.6 20.8 12.6 20.8 19.3-.2 10.4-12.6 15.2-24.1 15.2-16 0-24.6-2.5-37.7-8.3l-5.3-2.5-5.6 34.9c9.4 4.3 26.8 8.1 44.8 8.3 42.2 .1 69.7-20.8 70-53zM528 331.4L495.6 176h-31.1c-9.6 0-16.9 2.8-21 12.9l-59.7 142.5H426s6.9-19.2 8.4-23.3H486c1.2 5.5 4.8 23.3 4.8 23.3H528z" />
+              </svg>
+            </li>
+          </ul>
+
+          <ul class="col-md-3 list-unstyled">
+            <h5 class=" footer-title">Entre em contato</h5>
+            <li>
+              <p class="inline">Tel: 71 988811255</p>
+              <a class="text-body-secondary inline" href="https://wa.me/+5571988811255" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#522312" class="bi bi-whatsapp"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="col-md-3 list-unstyled">
+            <h5 class=" footer-title">Rede Social</h5>
+            <li>
+              <p class="inline">@sabordourado09</p>
+              <a class="text-body-secondary inline " href="https://www.instagram.com/sabordourado09/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#522312" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg></a>
+            </li>
+          </ul>
+
+          <div class="col-md-2">
+            <h5 class="footer-title inline">Início</h5>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#522312"
+                class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+              </svg></a>
+
+          </div>
+        </div>
+      </div>
+
+      <a class="zap" href="https://wa.me/5571988811255" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
+
+      <div class="row text-center">
+        <span class="mb-3 mb-md-0 text-body-secondary txt-footer">&copy; 2024 Desenvolvido por Sabor Dourado - Salvador
+          BA</span>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://demo.gethugothemes.com/restaurant/site/js/wow.min.js"></script>
+
+</body>
+
+</html>
